@@ -1,0 +1,18 @@
+[
+   {
+    "image": "images/vacancies.webp",
+    "iconAlt": "Вакансия 1",
+    "iconWidth": 387,
+    "iconHeight": 236,
+    "title": "Требуется инструктор в зале",
+    "description": "Заработная плата от 35 000 тыс.руб"
+   },
+   {
+    "image": "images/vacancies1.webp",
+    "iconAlt": "Вакансия 2",
+    "iconWidth": 387,
+    "iconHeight": 236,
+    "title": "Требуется инструктор в походы",
+    "description": "Заработная плата от 40 000 тыс.руб"
+   }
+]

@@ -1,0 +1,491 @@
+.services{
+    display: flex;
+    gap: 10px;
+}
+
+.services__wrap-right{
+    width: 500px;
+    flex-shrink: 0;
+}
+
+.services{
+    background-color:rgb(11, 250, 23);
+    color: rgb(0, 0, 0);
+    padding: 10px;
+}
+
+.services__button{
+    display: block;
+    padding: 10px;
+    color: rgb(11, 250, 23);
+    background-color: black;
+    text-decoration: none;
+    margin-top: auto;
+    margin-right: auto;
+}
+
+.services__wrap-left{
+    display: flex;
+    flex-direction: column;
+}
+
+.coaches{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(11, 250, 23);
+    color: black;
+    gap: 10px;
+}
+.coaches__card{
+    width: 350px;
+    padding: 15px;
+    display: flex;
+    background-color: rgb(0, 249, 203);
+    color: black;
+    box-shadow: 1px 2px 20px 5px #d7d7d7;
+    list-style-type: none;
+}
+
+.coaches__name{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.coaches__job{
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 14px;
+    font-style: italic;
+}
+
+.coaches__desc{
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.coaches__link{
+    display: block;
+    padding: 10px;
+    background-color: rgb(11, 250, 23);
+    color: rgb(250, 87, 11);
+    text-decoration: none;
+    text-align: center;
+}
+.coaches__link:hover{
+    background-color: rgb(11, 250, 23);
+}
+
+.coaches__list {
+    margin: 0;
+    padding: 20px 0;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+
+.coaches__link{
+    margin-top: auto;
+}
+
+.coaches__image{
+    display: flex;
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.coaches__title{
+    width: 100%;
+}
+
+.workout{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    list-style-type: none;
+}
+
+.workout__wrap-right{
+    width: 500px;
+    flex-shrink: 0;
+}
+
+.workout{
+    background-color: rgb(11, 250, 23);
+    color: black;
+    padding: 10px;
+}
+
+.workout__button{
+    display: block;
+    padding: 10px;
+    color: rgb(76, 204, 50);
+    background-color: black;
+    text-decoration: none;
+    margin-top: auto;
+    margin-right: auto;
+}
+
+.workout__wrap-left{
+    display: flex;
+    flex-direction: column;
+}
+
+.workout__card{
+    padding: 15px;
+
+    background-color: aliceblue;
+    color: black;
+    box-shadow: 1px 2px 20px 5px #d7d7d7;
+}
+
+.workout__name{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.workout__desc{
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.workout__list {
+    margin: 0;
+    padding: 20px 0;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+
+.workout__card{
+    display: flex;
+    flex-direction: column;
+}
+
+.workout__image{
+    display: flex;
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.workout__item{
+    width: 350px;
+}
+
+.workout__title{
+    width: 100%;
+}
+
+.coaches__card{
+    width: 1350px;
+    margin-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    overflow: hidden;
+}
+
+.coaches__image{
+    min-width: 360px;
+}
+
+.coaches__item{
+    width: 360px;
+    transition: 0.3s ease;
+}
+
+.coaches__link{
+    border: none;
+    margin-top: 20px;
+    color: rgb(1, 1, 1);
+    cursor: pointer;
+}
+
+
+.workout {
+    margin-top: 40px; 
+    display: flex; 
+    justify-content: space-between; 
+}
+
+.workout__item {
+    width: 300px;
+    position: relative;
+}
+
+.workout__description {
+    margin-top: 15px; 
+    color: #4a4a4a; 
+    text-align: center;
+    font-size: 16px; 
+    position: absolute; 
+    width: 250px;
+    background-color: #f79d9d; 
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, 50%);
+}
+
+.free-lesson {
+    background-color: rgb(11, 250, 23); /*фон секции*/
+    display: flex; /*Используем flexbox для выравнивания*/
+    justify-content: start; /*распределяем элементы сначала*/ 
+    gap: 28px; /* отступы между элементами */
+}
+
+.free-lesson {
+    margin-top: 35px; /*отступ сверху*/
+    margin-bottom: 35px; /*отступ снизу*/
+    width: 100%;/* Ширина 100% от родительского элемента */
+    max-width: 1200px; /*задается максимальная ширина блока*/
+}
+
+.free-lesson__title {
+    font-weight: 700; /* толщина шрифта.*/
+    font-size: 80px; /*размер шрифта для заголовка*/
+    line-height: 160%;/*межстрочный интервал*/
+    color: #ff0000; /*цвет заголовка*/
+}
+
+.free-leson__text {
+    margin-top: 20px; /*отступ сверху*/
+    font-size: 20px; /*размер шрифта для текста*/
+    font-weight: 400; /* толщина шрифта.*/
+    color: #0f0f0f; /*цвет текста*/
+}
+
+.applications {
+    position: fixed; /* позицинорование фиксированное */
+    top: 0; /* Элемент будет находиться на верхней границе экрана*/
+    left: 0; /* Элемент будет находиться на левой границе экрана.*/
+    width: 100%;/* Ширина 100% от окна браузера */
+    height: 100%;/* Высота 100% от окна браузера */
+    background-color: rgba(58, 60, 65, 0.7); /*задаем фон Полупрозрачный с цветом */
+}
+.application {
+    position: absolute; /* позиционируется абсолютно*/
+    top: 50%; /* верхняя часть смещена на 50% высоты родителя*/
+    left: 50%;/*левая граница смещена на 50% ширины родителя*/
+    transform: translate(-50%, -50%);/* смещаем элемент относительно его текущего положения*/
+    max-width: 800px;/* Максимальная ширина окна */
+    width: 100%;/* Ширина 100% от родительского элемента */
+    padding: 50px 20px; /* Внутренние отступы: 50px сверху и снизу, 20px слева и справа */
+    display: flex; /*Используем flexbox для выравнивания*/
+    justify-content: center; /* распределяем элементы по центру*/ 
+    align-items: center; /* выравнивание по вертикали */
+    column-gap: 64px; /* отступы между столбцами */
+    background-color: #d52027; /*фон модального окна*/
+    color: #fff; /*цвет текста*/
+}
+.application__title {
+    font-size: 36px; /*размер шрифта для заголовков*/
+     color: rgb(11, 250, 23); 
+}
+.application__text {
+    margin-top: 20px; /* Отступ сверху */
+    font-size: 20px; /*размер шрифта для текста*/
+    color: rgb(11, 250, 23); /*цвет текста*/
+
+}
+.application__form {
+    width: 500px; /*устанавливаем ширину для формы*/
+    display: flex; /*Используем flexbox для выравнивания формы в строку*/
+    flex-direction: column;
+    row-gap: 20px; /* отступы между строками */
+}
+
+.application__close {
+    position: absolute; /* позиционируется абсолютно*/
+    top: 0; /* Элемент будет находиться на верхней границе родителя*/
+    right: 0; /* элемент будет прижат к правой стороне родителя */
+    padding: 10px; /* Внутренние отступы с каждой стороны 10px*/
+    background-color: rgb(11, 250, 23); /*фон кнопки*/
+}
+
+.price__list {
+    margin-top: 60px; /*отступ сверху*/
+    display: flex; /*Используем flexbox для выравнивания в строку*/
+    column-gap: 40px; /*промежуток между карточками*/
+}
+
+.price__item {
+    padding: 40px 0; /*Внутренние отступы: 40px сверху и снизу, 0px слева и справа */
+    display: flex; /*Используем flexbox для выравнивания в столбец*/
+    flex-direction: column;/* выстраиваем в колонку*/
+    justify-content: space-between; /* распределяем элементы по ширине*/ 
+    align-items: center; /* выравнивание по вертикали */
+    border: 1px solid rgba(20, 16, 36, 0.2); /*задаем толщину границы и цвет*/
+    border-radius: 20px;/* скругляем границы*/
+    text-align: center; /*выравнивание текста по центру*/
+    width: 360px; /*ширина карточки*/
+    height: 500px; /*высота карточки*/
+    transition: transform 0.3s ease-out; /*плавное изменение свойства в течение 0.3 секунды*/
+}
+
+.price__level {
+    font-weight: 600; /*толщина шрифта */
+    font-size: 30px; /*размер текста тарифа*/
+}
+
+.price__price {
+    margin-top: 83px; /*отступ сверху*/
+    font-weight: 600; /*толщина шрифта */
+    font-size: 50px; /*размер текста цены*/
+}
+
+.header {
+    background: rgb(190, 183, 156); /*цвет фона шапки*/
+    padding: 30px 100px; /* Внутренние отступы: 30px сверху и снизу, 100px слева и справа */
+    color: #000000; /*цвет текста*/
+    display: flex; /*Используем flexbox для выравнивания в строку*/
+    justify-content: space-between; /* распределяем элементы по ширине*/ 
+    align-items: center; /* выравнивание по вертикали */
+}
+
+.header__list {
+    display: flex; ;/*Используем flexbox для выравнивания списка в строку*/
+    justify-content: space-between; /* распределяем элементы по ширине*/ 
+    gap: 40px; /*промежуток между ссылками */
+}
+
+.header__link {
+    font-size: 20px; /*размер текста ссылок*/
+    font-weight: 400; /*толщина шрифта */
+    text-decoration: none; /*убираем подчеркивание ссылок*/
+    color: #fff; /*цвет текста*/
+}
+
+.images__list {
+    display: flex; /* Используем flexbox для выравнивания карточек в строку*/
+    flex-wrap: wrap; /*Если карточки не влезут в строку, то перенос на новую*/
+
+    gap: 50px; /* промежуток между карточками */
+    justify-content: center; /* распределяем элементы по центру*/ 
+    list-style-type: none; /*убираем маркеры от списка ul*/
+    margin: 0; /*ставим в 0 пикселей внешние отступы*/
+    padding: 0; /*ставим в 0 пикселей внутренние отступы*/
+
+}
+.images__item {
+    padding: 10px 30px;  /* Внутренние отступы: 10px сверху и снизу, 30px слева и справа */
+     border-radius: 20px; /* скругление углов на 20px*/
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);/*тень карточки*/
+}
+
+.hidden {
+    display: none; /* Скрываем элементы с этим классом */
+}
+.price__list {
+  display: flex; /* Используем flexbox для выравнивания карточек в строку*/
+  gap: 40px; /* промежуток между карточками */
+  flex-wrap: wrap; /*Если карточки не влезут в строку, то перенос на новую*/
+}
+.price__item {
+  padding: 40px0; /* Отступы сверху и снизу 40px, слева и справа 0 */
+  display: flex; /* Используем flexbox для выравнивания карточек в строку*/
+  flex-direction: column; /* Элементы внутри карточки располагаем в колонку */
+  justify-content: space-between;
+  align-items: center; /* Центрируемэлементыпогоризонтали */
+  border: 1pxsolidrgba(20, 16, 36, 0.2); /* задаем рамку с толщиной 1рх и цветом с прозрачностью */
+  border-radius: 20px; /* скруглениеугловна 20px*/
+  text-align: center; /* Центрируемтекст */
+  width: 360px; /* Ширина карточки */
+  height: 400px; /* Высота карточки */
+  transition: transform0.3sease-out; /* Плавный переход приувеличении карточки */
+}
+.price__item:hover {
+  background: rgb(11, 250, 23); /* Цвет фона при наведении */
+  color: #fff; /* Цвет текста при наведении */
+  transform: scale(1.1); /* Увеличение карточки при наведении */
+}
+.price__level {
+    font-weight: 600; /*толщинашрифта */
+    font-size: 30px; /* Размершрифта */
+}
+
+.price__description {
+    margin-top: 20px;
+}
+.price__button {
+  max-width: 280px; /* Максимальная ширина кнопки «Оставить заявку */
+  height: 79px; /* Высотакнопки */
+}
+.price__buttons {
+    padding-top: 20px; /* Отступсверху */
+    display: flex; /* Используем flex для выравнивания кнопок */
+  gap: 30px; /* Промежуток между кнопками */
+  justify-content: center; /* Центрируем кнопки по горизонтали */
+}
+.price__btn {
+  background-color: #f7f7f7; /* Цветфонакнопокфильтрации */
+  border-radius: 10px; /* Скруглениеугловкнопокфильтрации*/
+  height: 40px; /* Высотакнопок */
+  border: none; /* Убираемрамку */
+}
+.price__btn:hover,
+.price__btn:focus,
+.price__btn:active {
+  background-color: rgb(11, 250, 23); /* Цветфонапринаведении, фокусеиактивации */
+    color: #f7f7f7; /* Цвет текста при наведении, фокусе и активации */
+}
+
+.job__list {
+    margin-top: 30px; /*ставим в 30 пикселей отступ cверху*/
+    display: flex; /* Используем flexbox для выравнивания карточек в строку*/
+    gap: 30px;  /*  промежуток в 30 px между элементами списка*/
+    justify-content: space-evenly; /* Распредение элементов списка равномерно по горизонтали*/
+}
+
+ 
+.job__item {
+    height: 300px; /*высота карточки*/
+    display: flex; /* Используем flexbox для выравнивания карточек в строку*/
+    flex-direction: column;  /* располагаем карточку в колонку*/
+    justify-content: space-between; /*распределение карточек по вертикали,по всей высоте*/
+    align-items: center; /*Центрируем элементы по горизонтали внутри карточки*/
+    text-align: center; /*выравнивание текста по центру*/
+}
+
+ 
+.job__img {
+    object-fit: contain; /*изображение вписывается в контейнер, сохраняя при этом его пропорции*/
+    height: 200px; /*высота изображения*/
+}
+
+
+.welcome {
+    background-color: #141024; /*фон секции*/
+    display: flex; /*Используем flexbox для выравнивания*/
+    justify-content: start; /*распределяем элементы сначала*/ 
+    gap: 28px; /* отступы между элементами */
+}
+
+.welcome__block {
+    margin-top: 252px; /*отступ сверху*/
+    margin-bottom: 411px; /*отступ снизу*/
+    width: 100%;/* Ширина 100% от родительского элемента */
+    max-width: 516px; /*задается максимальная ширина блока*/
+}
+
+.welcome__title {
+    font-weight: 600; /* толщина шрифта.*/
+    font-size: 70px; /*размер шрифта для заголовка*/
+    line-height: 160%;/*межстрочный интервал*/
+    color: #fff; /*цвет заголовка*/
+}
+
+.welcome__text {
+    margin-top: 20px; /*отступ сверху*/
+    font-size: 20px; /*размер шрифта для текста*/
+    font-weight: 400; /* толщина шрифта.*/
+    color: #fff; /*цвет текста*/
+}

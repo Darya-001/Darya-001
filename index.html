@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="RU">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Секция по спортивному туризму и ориентированию</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <div class="preloader">
+        <div class="loader">
+            <span class="dot1"></span>
+            <span class="dot2"></span>
+            <span class="dot3"></span>
+        </div>
+        Загрузка...
+    </div>
+    <div class="content">
+    <header class="header container">
+         <a class="header__logo-wrap" href="index.html"> 
+           <img class="header__logo" src="images/logotip.jpg" alt="Логотип" width="300" height="250">
+           <h1 class="header__title">Секция по спортивному туризму и ориентированию</h1>
+        </a>
+        <div class="header__buttons">
+            <button class="header__button button" type="button">Вход</button>
+            <button class="header__button button" type="button">Регистрация</button>
+        </div>
+        <header class="header"> 
+            <a href="#" class="header__title title">WIND.ROSE</a> 
+            <nav class="header__menu"> 
+                <ul class="header__list"> 
+                    <li class="header__item"><a href="#" class="header__link">Главная</a></li>
+                    <li class="header__item"><a href="#" class="header__link">Услуги</a></li>
+                    <li class="header__item"><a href="#" class="header__link">Тренеры</a></li>
+                </ul>
+            </nav>
+    <main class="main container"> 
+        <section class="services">
+            <div class="services__wrap-left">
+                <h2 class="services__title">Услуги</h2>
+                <p>Туризм,спортивное ориентирование – это удивительная активность, которая сочетает в себе приключения, физическую активность и интеллектуальные задачи. В основе этого вида туризма лежит способность ориентироваться в незнакомой местности с помощью карты и компаса. Необычно, правда? Как будто становишься героем собственной истории, где каждый поворот приносит новые открытия и испытания. Это действительно спортивная форма туризма, где даже процесс перемещения от точки А к точке Б превращается в увлекательное приключение.></p>
+                <button class="services__button button services__button--disable" type="button">Все виды тренеровок</button>
+            </div>
+            <div class="services__wrap-right">
+                <img class="services__imge" src="images/LOG.webp" alt="Основная картинка" width="750" height="175">
+            </div>
+        </section>
+        <section class="workout">
+            <ul class="workout">
+                <li class="workout__item">
+                    <div class="workout__image__wrap-right">
+                       <img class="workout__image" src="images/orienteerig.webp" alt="Ориентирование" width="300" height="200">
+                    </div>
+                    <div class="workout__wrap-left">
+                       <h3 class="workout__title">Спортивное риентирование</h3>
+                       <p class="workout__card">вид спорта, в котором участники с помощью спортивной карты и компаса должны пройти неизвестную им трассу (дистанцию) через контрольные пункты (КП), расположенные на местности. Результаты определяются по времени прохождения дистанции (в определённых случаях с учётом штрафного времени) или по количеству набранных очков.></p>
+                       <button class="workout__button button" type="button">Подробнее</button>
+                    </div>
+                </li>
+                <li class="workout__item">
+                    <div>
+                        <img class="workout__image" src="images/tourism.webp" alt="Туризм" width="300" height="300">
+                    </div>
+                    <div>
+                        <h3 class="workout__title">Спортивный туризм</h3>
+                        <p class="workout__card">вид спорта, цель которого в прохождении туристических маршрутов и преодолении естественных препятствий></p>
+                        <button class="workout__button button" type="button">Подробнее</button>
+                    </div>
+                </li>
+            </ul>
+        </section>
+
+        <section class="section search">
+            <h2 class="search__title section__title section__title--center">Поиск занятий
+            <p class="search__description section__description--center">Введите название занятия
+            <form class="search__form form" action="/" method="get">
+                <input class="search__form--name form__field" type="search" name="text" placeholder="Название занятия...">
+                <button class="search__form-submit button button--accent" type="submit">Поиск</button>
+            </form>
+        </section>
+        <section class="first-lesson">
+            <div class="first-lesson">
+                <h2 class="first-lesson__title">Первое занятие бесплатно</h2>
+            </div>
+        </section>
+        <section class="free-lesson">
+            <div class="free-lesson__block">
+                <h1 class="free-lesson__title">WIND ROSE</h1>
+                <p class="free-lesson__text">Занятия для детей и взрослых
+                </p>
+                <button class="free-lesson__button button">Записаться на бесплатное занятие</button>
+            </div>
+            <img class="free-lesson__img" src="images/tourism1.webp" alt="Мальчик с веревками" class="free-lesson__img" width="783" height="917">
+        </section>
+        <div class="applications" hidden>
+            <section class="applications">
+                <div class="application__wrap"> 
+                    <h3 class="application__title">
+                        Записаться на бесплатное занятие
+                    </h3>
+                    <p class="application__text">Предложение действует 7 дней после записи</p>
+                </div>
+                <button class="application__close" type="button">Закрыть</button>
+                <form action="/"class="application__form">
+                    <input class="application__input" type="text" placeholder="Имя" id="username">
+                    <input class="application__input" type="tel" placeholder="Телефон" id="tel">
+                    <input class="application__input" type="email" placeholder="E-mail" id="email">
+                    <button class="application__button">Отправить заявку</button>
+                </form>
+                <p id="application-message" class="application__message"></p>
+            </section>
+        </div>
+
+     <section class="coaches">
+        <h2 class="coaches__title section__title">Тренеры</h2>
+        <ul class="coaches__card">
+            <li class="coaches__item">
+                <img src="images/coache.webp" alt="Тренер Павлова" class="coaches__image" width="200" height="300">
+                <h3 class="coaches__subtitle">Тренер 1</h3>
+                <p class="coaches__test">Тренер по спортивному ориентирование</p>
+                <button class="coaches__button button" type="button">Записаться</button>
+            </li>
+            <li class="coaches__item">
+                <img src="images/coache1.jpg" alt="Тренер Иванов" class="coaches__image" width="200" height="300">
+                <p class="coaches__subtitle">Тренер 2</p>
+                <p class="coaches__test" >Тренер по спортивному ориентированию</p>
+                <button class="coaches__button button" type="button">Записаться</button>
+            </li>
+            <li class="coaches__item">
+                <img class="coaches__image"  src="images/coache2.jpg" alt="Тренер Смирнова" class="coaches__image" width="200" height="300">
+                <p class="coaches__subtitle">Тренер 3</p>
+                <p class="coaches__test">Тренер по спортивному туризму</p>
+                <button class="coaches__button button" type="button">Записаться</button>
+            </li>
+            <li class="coaches__item">
+                <img class="coaches__image" src="images/coache3.webp" alt="Тренер Петров" class="coaches__image" width="200" height="300">
+                <p class="coaches__subtitle">Тренер 4</p>
+                <p class="coaches__test">Тренер по спортивноу туризму</p>
+                <button class="coaches__button button" type="button">Записаться</button>
+            </li>
+        </ul>
+     </section>
+     <section class="section price">
+         <h2 class="price__title section__title">Выберите нужный пакет</h2>
+         <div class="price__buttons"> 
+            <button class="price__btn" data-filter="all">все</button>
+                <button class="price__btn" data-filter="4 month">3 месяца</button>
+                <button class="price__btn" data-filter="2 month">2 месяцев</button>
+                <button class="price__btn" data-filter="1 month">1 месяц</button>
+         </div>             
+         <ul class="price__list">
+            <!-- <li class="price__item 3 month">
+                 <p class="price__level">- PRO -</p>
+                 <p class="price__price">11 000 р</p>
+                 <p class="price__desription">3 месяца</p>
+                 <button class="price__button button">Оставить заявку</button>
+             </li>
+             <li class="price__item 2 month">
+                <p class="price__level">- PRO -</p>
+                <p class="price__price">7 900 р</p>
+                <p class="price__desription">2 месяцев</p>
+                <button class="price__button button">Оставить заявку</button>
+            </li>
+            <li class="price__item 1 month">
+                <p class="price__level">- PRO -</p>
+                <p class="price__price">4 050 р</p>
+                <p class="price__desription">1 месяц</p>
+                <button class="price__button button">Оставить заявку</button>
+            </li> -->
+         </ul>
+     </section>
+     <section class="images">
+        <h2 class="images__title">Изображения</h2>
+        <ul class="images__list">
+            <!--Здесь будет создаваться код с использованием JSON. -->
+        </ul>
+     </section>
+    <div class="swiper myswiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+              <img src="images/tourism3.webp" alt="Slide 1" class="swiper-slaide-image"width="600"></div>
+          <div class="swiper-slide">
+              <img src="images/orienteerig1.webp" alt="Slide 1" class="swiper-slaide-image"width="600"></div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+    </div>
+    <section class="job">
+        <h2 class="job__title section__title">Вакансии</h2>
+        <ul class="job__list">
+            <!--здесь будет выводиться список вакансиями с использованием JSON.-->
+        </ul>
+        </h2>
+    </section>
+    </main>
+    <footer class="footer">
+        <div class="footer__container container">
+            <a class="footer__logo logo">Sport</a>
+            <p class="footer__copy">&copy; Sport 2025</p>
+        </div>
+    </footer>
+    <!--/ Подвал -->
+    <!-- Формы -->
+    <div class="dialog dialog--layout" hidden>
+        <div class="dialog__content">
+            <button class="popup__close" type="button"><img src="images/icon/close.svg" alt="Закрыть окно" width="24"
+                    height="24"></button>
+            <h2 class="popup__title">Войдите в профиль</h2>
+            <p class="popup__desc">Добавлять могут только зарегистрированные пользователи.</p>
+            <div class="popup__buttons">
+                <button class="button button--accent" type="button">Войти</button>
+                <button class="button" type="button">Регистрация</button>
+            </div>
+        </section>
+        <section style="display: none" class="popup">
+                <button class="popup__close" type="button"><img src="images/" alt="Закрыть окно" width="24"
+                        height="24"></button>
+                <h2 class="popup__title popup__title--registration">Регистрация</h2>
+                <form class="popup__form form" action="/" method="post">
+                    <input class="form__field" type="text" name="name" placeholder="Имя" required>
+                    <input class="form__field" type="email" name="email" placeholder="Логин" required>
+                    <fieldset class="form__fieldset">
+                        <div class="form__field-block">
+                            <input class="form__field" type="password" name="password" placeholder="Пароль" required>
+                            <span class="form__field-alert">Минимум 8 символов</span>
+                        </div>
+                        <input class="form__field" type="password" name="repeat-password" placeholder="Повторите пароль"
+                            required>
+                    </fieldset>
+                    <fieldset class="form__buttons">
+                        <button class="button button--accent" type="submit">Зарегистрироваться</button>
+                        <button class="button" type="button">Отмена</button>
+                    </fieldset>
+                    <button class="button button--link" type="button">У меня уже есть аккаунт</button>
+                </form>
+        </section>
+    </div>
+    <footer class="footer container">
+        <p class="footer__title">Сайт создан Анисимовой Дарьеей группа РК-22</p>
+        <ul class="footer">
+            <li class="footer__link"><a href="#">Правовая оговорка</a></li>
+            <li class="footer__link"><a href="#">Пользавотельское соглашение</a></li>
+            <li class="footer__link"><a href="#">Политика конфидециальности</a></li>
+        </ul>
+    </footer>
+    </div>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="scripts/script.js"></script>
+ 
+</body>
+</html>
